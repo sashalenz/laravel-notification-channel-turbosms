@@ -1,8 +1,8 @@
 {
-    "name": "yakimka/laravel-notification-channel-turbosms",
-    "description": "Turbo SMS Notification channel for Laravel 5.3+.",
+    "name": "sashalenz/laravel-notification-channel-turbosms",
+    "description": "Turbo SMS Notification channel for Laravel 6.0+.",
     "keywords": ["laravel", "notifications", "turbosms"],
-    "homepage": "https://github.com/yakimka/laravel-notification-channel-turbosms",
+    "homepage": "https://github.com/sashalenz/laravel-notification-channel-turbosms",
     "license": "MIT",
     "authors": [
         {
@@ -10,18 +10,14 @@
             "email": "ss.yakim@gmail.com",
             "role": "Developer",
             "homepage": "https://github.com/yakimka"
-        },
-        {
-            "name": "JhaoDa",
-            "role": "Developer",
-            "email": "jhaoda@gmail.com",
-            "homepage": "https://github.com/jhaoda"
         }
     ],
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/notifications": "^5.3",
-        "illuminate/support": "^5.1|^5.2|^5.3"
+        "php": "^7.2",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "illuminate/notifications": "^6.0",
+        "illuminate/support": "^6.0"
     },
     "autoload": {
         "psr-4": {
