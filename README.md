@@ -1,7 +1,7 @@
 # Turbo SMS notifications channel for Laravel 6.0+
 Based on [github.com/laravel-notification-channels/smsc-ru](https://github.com/laravel-notification-channels/smsc-ru)
 
-This package made for send notifications using [turbosms.ua](https://turbosms.ua/) with Laravel 6.0+.
+This package made for send notifications using [turbosms.ua](https://turbosms.ua/) with Laravel 7.0+.
 
 ## Contents
 
@@ -19,9 +19,12 @@ This package made for send notifications using [turbosms.ua](https://turbosms.ua
 ## Installation
 
 You can install the package via composer:
-```composer require yakimka/laravel-notification-channel-turbosms```
+
+```composer require sashalenz/laravel-notification-channel-turbosms```
+
 
 For Laravel < 5.5 you must install the service provider:
+
 ```php
 // config/app.php
 'providers' => [
